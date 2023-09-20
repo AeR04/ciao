@@ -1,0 +1,16 @@
+html > .err {
+  height: 100%;
+}
+
+body > .err {
+  margin: 0px;
+  background: #0e0e0e;
+  height: 100%;
+}
+
+.err {
+  -webkit-user-select: none;
+  margin: auto;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+}
